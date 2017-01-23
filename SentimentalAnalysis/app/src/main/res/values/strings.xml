@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SentimentAnalysis v1.0</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="wait">Please wait, loading</string>
+    <string name="error">Error when the app tried to load</string>
+    <string name="typetext">Type your text here</string>
+    <string name="clear">Clear</string>
+    <string name="choose_method">Choose a Method</string>
+
+    <string-array name="methods_array">
+        <item>Afinn</item>
+        <item>Emolex</item>
+        <item>Emoticons</item>
+        <item>EmoticonsDS</item>
+        <item>HappinessIndex</item>
+        <item>MPQA</item>
+        <item>NRCHashtag</item>
+        <item>OpinionLexicon</item>
+        <item>PanasT</item>
+        <item>Sann</item>
+        <item>Sasa</item>
+        <item>SenticNet</item>
+        <item>SentiStrength</item>
+        <item>SoCal</item>
+        <item>Stanford</item>
+        <item>Umigon</item>
+        <item>Vader</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,29 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "23.0.0"
+
+    defaultConfig {
+        applicationId "br.ufmg.dcc.nerds.sentimentalanalysis"
+        minSdkVersion 21
+        targetSdkVersion 21
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:22.2.1'
+    compile 'com.android.support:support-v4:22.2.1'
+    compile files('libs/SentiStrengthAndroid.jar')
+    compile files('libs/commons-lang3-3.1.jar')
+    compile files('libs/stanford-corenlp-3.4.1.jar')
+    compile files('libs/stanford-corenlp-models-current-4LG.jar')
+    compile files('libs/ejml-0.23.jar')
+}
